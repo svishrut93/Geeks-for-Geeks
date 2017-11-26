@@ -31,3 +31,23 @@ k factorial is 24
 Result for combination is ...
 Combination is 1001
 Exit
+---------------------------------
+Recursive method : 
+--------------------------------
+Enter value of n 
+6
+Enter value of k 
+4
+answer = 15
+
+Enter value of n 
+12
+Enter value of k 
+2
+answer = 66
+
+Enter value of n 
+18
+Enter value of k 
+6
+answer = 18564
