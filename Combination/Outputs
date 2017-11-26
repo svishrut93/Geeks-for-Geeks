@@ -1,0 +1,33 @@
+Enter value of n 
+4
+Enter value of k 
+3
+n factorial is : 24
+n - k factorial is : 1
+k factorial is 6
+Result for combination is ...
+Combination is 4
+Exit
+---------------------------------
+Enter value of n 
+10
+Enter value of k 
+4
+n factorial is : 3628800
+n - k factorial is : 720
+k factorial is 24
+Result for combination is ...
+Combination is 210
+Exit
+-------------------------------
+
+Enter value of n 
+14
+Enter value of k 
+4
+n factorial is : 87178291200
+n - k factorial is : 3628800
+k factorial is 24
+Result for combination is ...
+Combination is 1001
+Exit
