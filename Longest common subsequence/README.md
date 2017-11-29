@@ -5,19 +5,19 @@ I have used dynamic programming to solve this problem <br>
 Refer file LongestCommonSubsequence.java<br><br>
 
 Output 
-Enter first string : 
-AGGTAB
-Enter second string : 
-GXTXAYB
-
-0	0	0	0	0	0	0	0	
-0	0	0	0	0	1	1	1	
-0	1	1	1	1	1	1	1	
-0	1	1	1	1	1	1	1	
-0	1	1	2	2	2	2	2	
-0	1	1	2	2	3	3	3	
-0	1	1	2	2	3	3	4	
-
- Length of longest common subsequence  = 4
+Enter first string : <br>
+AGGTAB<br>
+Enter second string : <br>
+GXTXAYB<br>
+<br>
+0	0	0	0	0	0	0	0	<br>
+0	0	0	0	0	1	1	1	<br>
+0	1	1	1	1	1	1	1	<br>
+0	1	1	1	1	1	1	1	<br>
+0	1	1	2	2	2	2	2	<br>
+0	1	1	2	2	3	3	3	<br>
+0	1	1	2	2	3	3	4	<br>
+<br>
+ Length of longest common subsequence  = 4<br>
 
 
