@@ -1,4 +1,4 @@
-<h1>Maximum size square sub-matrix with all 1s <\h1>
+<h1>Maximum size square sub-matrix with all 1s </h1>
 
 Given a binary matrix, find out the maximum size square sub-matrix with all 1s.<br>
 
