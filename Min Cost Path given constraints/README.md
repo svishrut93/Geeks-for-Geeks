@@ -9,3 +9,9 @@ You may assume that all costs are positive integers.<br>
 ![alt text](https://github.com/svishrut93/Geeks-for-Geeks/blob/master/Min%20Cost%20Path%20given%20constraints/MatrixSolved.PNG)
 
 The cost of the path is 8 (1 + 2 + 2 + 3).
+
+![alt text](https://github.com/svishrut93/Geeks-for-Geeks/blob/master/Min%20Cost%20Path%20given%20constraints/OutputSamples/mcop1.PNG)
+
+![alt text](https://github.com/svishrut93/Geeks-for-Geeks/blob/master/Min%20Cost%20Path%20given%20constraints/OutputSamples/mcop2.PNG)
+
+![alt text](https://github.com/svishrut93/Geeks-for-Geeks/blob/master/Min%20Cost%20Path%20given%20constraints/OutputSamples/mcop3.PNG)
