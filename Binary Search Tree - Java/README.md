@@ -8,5 +8,6 @@ This tree is created and then displayed using the 3 tree traversal techniques. <
 
 
 Output
-_______
+![alt text](https://github.com/svishrut93/Geeks-for-Geeks/blob/master/Binary%20Search%20Tree%20-%20Java/Tree%20Traversal%20Output.PNG)
+
 
