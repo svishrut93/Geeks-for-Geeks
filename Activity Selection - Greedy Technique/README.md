@@ -10,5 +10,7 @@ There is an event class for creating objects of type event, conatining: <br>
 3. End Time <br>
 
 Outputs: 
+![alt text](https://github.com/svishrut93/Geeks-for-Geeks/blob/master/Activity%20Selection%20-%20Greedy%20Technique/Activity%20Selection.PNG)
+
 
 
