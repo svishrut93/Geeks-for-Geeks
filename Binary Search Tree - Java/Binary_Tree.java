@@ -89,7 +89,7 @@ public class Binary_Tree {
 		
 		if( this.left != null ) 
 		{
-			this.left.inorder();
+			this.left.postorder();
 		}
 		
 
@@ -97,7 +97,7 @@ public class Binary_Tree {
 		if( this.right != null ) 
 		{
 			
-		this.right.inorder();
+		this.right.postorder();
 		
 		}
 		
