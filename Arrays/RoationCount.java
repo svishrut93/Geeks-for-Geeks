@@ -3,6 +3,10 @@ package g4g;
 //Consider an array of distinct numbers sorted in increasing order. 
 //The array has been rotated (anti-clockwise) k number of times. Given such an array, find the value of k.
 
+//Another approach to solving this problem:
+//If we take closer look at examples, we can notice that the number of rotations is equal to index of minimum element.
+//A simple linear solution is to find minimum element and returns its index. Below is C++ implementation of the idea.
+
 import java.util.Arrays;
 import java.util.Scanner; 
 public class RoationCount {
