@@ -1,5 +1,8 @@
 package g4g;
 
+//NOTE : code in this file belongs to Prakriti Gupta from geeks for geeks. 
+//I am saving it here for my own quick reference 
+
 //Java program to find a pair with a given 
 //sum in a sorted and rotated array
 
