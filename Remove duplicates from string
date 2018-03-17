@@ -1,0 +1,55 @@
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class Remove_all_dups {
+
+	
+	public static void main(String[] args) {
+		
+		
+		String  gg = "geeksforgeeks";
+		
+		
+		char[] arr = gg.toCharArray();
+		
+		Set <Character>  hs = new HashSet <>();
+		
+		
+		
+		for (int i = 0 ; i <arr.length ; i ++ )
+		{
+			hs.add(arr[i]);
+		}
+		
+		System.out.println("String after removing repeats USING sets :");
+		
+		for(Character ch :hs )
+		{
+			System.out.println(ch);
+		}
+		
+		LinkedHashSet<Character> lhs = new LinkedHashSet<>();
+        for(int i=0;i<gg.length();i++)
+            lhs.add(gg.charAt(i));
+         
+        
+        System.out.println("String after removing repeats USING Linked Hashsets :");
+        // print string after deleting duplicate elements
+        for(Character ch : lhs)
+            System.out.print(ch);
+		
+	}
+}
+--------------------------------------------
+Output:
+String after removing repeats USING sets :
+r
+s
+e
+f
+g
+k
+o
+String after removing repeats USING Linked Hashsets :
+geksfor
