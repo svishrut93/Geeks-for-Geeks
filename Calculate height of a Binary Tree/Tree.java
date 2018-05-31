@@ -2,7 +2,6 @@ package Height_of_BT;
 
 public class Tree
 {
-	
 		TreeNode root ; 
 		int count; 
 		
