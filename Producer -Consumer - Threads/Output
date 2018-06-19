@@ -1,0 +1,18 @@
+Producer produced-0
+Producer produced-1
+Consumer consumed-0
+Consumer consumed-1
+Producer produced-2
+
+Explanation : 
+In PC class (A class that has both produce and consume methods), a linked list of jobs and a capacity of the list is added to check that producer does not produce if the list is full.
+In Producer class, the value is initialized as 0.
+Also, we have an infinite outer loop to insert values in the list. Inside this loop, we have a synchronized block so that only a producer or a consumer thread runs at a time.
+An inner loop is there before adding the jobs to list that checks if the job list is full, the producer thread gives up the intrinsic lock on PC and goes on the waiting state.
+If the list is empty, the control passes to below the loop and it adds a value in the list.
+In the Consumer class, we again have an infinite loop to extract a value from the list.
+Inside, we also have an inner loop which checks if the list is empty.
+If it is empty then we make the consumer thread give up the lock on PC and passes the control to producer thread for producing more jobs.
+If the list is not empty, we go round the loop and removes an item from the list.
+In both the methods, we use notify at the end of all statements. The reason is simple, once you have something in list, you can have the consumer thread consume it, or if you have consumed something, you can have the producer produce something.
+sleep() at the end of both methods just make the output of program run in step wise manner and not display everything all at once so that you can see what actually is happening in the program.
