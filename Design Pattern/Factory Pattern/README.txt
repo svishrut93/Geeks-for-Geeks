@@ -6,4 +6,4 @@ you have a set of component classes but won’t know exactly which one you’ll 
 
 A class cannot anticipate the type of objects it needs to create beforehand.
 A class requires its subclasses to specify the objects it creates.
-You want to localize the logic to instantiate a complex obje
+You want to localize the logic to instantiate a complex objects.
