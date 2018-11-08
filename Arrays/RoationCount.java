@@ -5,7 +5,7 @@ package g4g;
 
 //Another approach to solving this problem:
 //If we take closer look at examples, we can notice that the number of rotations is equal to index of minimum element.
-//A simple linear solution is to find minimum element and returns its index. Below is C++ implementation of the idea.
+//A simple linear solution is to find minimum element and returns its index. Below is JAVA implementation of the idea.
 
 import java.util.Arrays;
 import java.util.Scanner; 
