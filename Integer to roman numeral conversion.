@@ -1,0 +1,67 @@
+Given an integer, write a function to return its roman numeral representation.
+
+Examples - 
+
+integerToRoman(1)  = "I"
+integerToRoman(4)  = "IV"
+integerToRoman(49) = "XLIX
+
+
+REPRESENTATIONS FOR ROMAN NUMERALS IS SUCH .....
+M = 1000
+D = 500
+C = 100
+L = 50 
+X = 10
+V = 5 
+I = 1
+
+
+MAIN POINTS - 
+
+1. We want to store the roman representations and their corresponding integers in descending order in 2 arrays. 
+2. This list will also contain the cases where we perform subtraction to achieve roman representation ....
+   these cases are the following 
+  1) IV = 4 
+  2) IX = 9 
+  3) XL = 40 
+  4) XC = 90
+  5) CD = 400
+  6) CM = 900
+  
+  FOR EXAMPLE roman representation of 49 is - (50 - 10 + 9 ) = > XLIX. 
+  
+3. Formalize the limit of your number size : 1 - 3999 only 
+
+4. For every input subtract the numbers in array(arranged in descending order).
+If result is negative then ignore and move onn to next element.
+
+----------------------------------------------------------------------------------------------------
+Solution by SAM GAVIS HUGHSON - 
+
+// Parallel arrays of numerals in descending order and their values. We 
+// include any pairs of numerals where a smaller numeral is subtracted from
+// a larger numeral
+private static final String[] numerals = 
+    new String[]{"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", 
+                 "V", "IV", "I"};
+private static final int[] values =
+    new int[]{1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+    
+public static String integerToRoman(int value) {
+    // We are only considering the range for standard roman numerals
+    if (value > 3999 || value < 1) throw new IllegalArgumentException();
+    
+    StringBuilder numeral = new StringBuilder();
+    int i = 0;
+    // Greedily append the largest numeral possible until the value is 0
+    while (value > 0) {
+        if (value - values[i] >= 0) {
+            numeral.append(numerals[i]);
+            value -= values[i];
+        } else {
+            i++;
+        }
+    }
+    return numeral.toString();
+}
